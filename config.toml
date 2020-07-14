@@ -14,7 +14,7 @@ googleAnalytics = "UA-XXXXXXXX-XX"
 # disqusShortName = "yourdisqusshortname"
 
 [Author]
-  name = "Haider Ali Punjabi"
+  name = "CovidKashmir"
 
 [outputs]
   section = ["JSON", "HTML"]
