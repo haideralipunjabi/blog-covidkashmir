@@ -3,10 +3,14 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: static/images
 public_folder: /images
+site_url: https://blog.covidkashmir.org
+display_url: https://blog.covidkashmir.org
+logo_url: https://blog.covidkashmir.org/images/logo.svg
+
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/posts'
+    folder: 'content/post'
     create: true
     slug: '{{slug}}'
     editor:
