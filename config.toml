@@ -13,9 +13,6 @@ googleAnalytics = "UA-83905982-8"
 # and disqus too.
 disqusShortName = "covidkashmir"
 
-[Author]
-  name = "CovidKashmir"
-
 [outputs]
   section = ["JSON", "HTML"]
 
@@ -53,6 +50,10 @@ disqusShortName = "covidkashmir"
 #   icon = "fas fa-archive fa-lg"
 #   url = "archives"
 #   weight = 3
+
+[params]
+author = "CovidKashmir"
+description = "Blog related to CovidKashmir.org"
 
 [params.logo]
   url = "icon.png" # static/images/icon.png
