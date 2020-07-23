@@ -1,6 +1,7 @@
 ---
 title: The Stack behind CovidKashmir
-# images: /images/ck-blog1.jpg
+images:
+  - /images/ck-blog1.jpg
 date: 2020-07-23T08:33:53.264Z
 description: "Blog Post describing the stack and technologies behind CovidKashmir.org. "
 author: haideralipunjabi
