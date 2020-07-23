@@ -17,7 +17,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Featured Images', name: 'images', widget: 'image' }
+      - { label: 'Featured Images', name: 'images', widget: 'list', field: {label: 'Image', name: 'image', widget: 'image'}}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'string'}
