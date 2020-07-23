@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      {{ partial "toc.html" . }}
+
+      {{ if .Params.tags }}
+        <div class="blog-tags">
+          {{ range .Params.tags }}
+            <a href="{{ $.Site.BaseURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+          {{ end }}
+        </div>
+      {{ end }}
+    </article>
+    <br>
+    <hr>
+    {{ $author := index .Site.Data.authors .Params.author }}
+    {{ partial "author.html" $author }}
+    <hr>
+    {{ if and (gt .WordCount 400) (.Param "backtotop") }}
+      {{ partial "backtotop.html" . }}
+      <button onclick="topFunction()" id="backtotopButton">
+        <i class="fa fa-angle-up"></i>
+      </button>
+    {{ end }}
+    
+    {{ template "_internal/disqus.html" . }}
+  </div>
+{{ end }}

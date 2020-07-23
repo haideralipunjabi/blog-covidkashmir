@@ -1,0 +1,13 @@
+<div class="author-container">
+    <img class="author-image" src="{{ .avatar }}" alt="">
+    <div style="flex-direction: column;">
+        <h3 class="author">{{ .name }}</h3>
+        <div class="author-icons">
+            {{ range $key, $value := .social }}
+            <a target="_blank" href="{{ $value }}"><i class="{{ $key }}"></i></a>
+        {{ end }}
+        </div>
+    </div>
+    
+</div>
+

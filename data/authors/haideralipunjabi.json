@@ -1,3 +1,11 @@
 {
-    "name": "Haider Ali Punjabi"
+    "name": "Haider Ali Punjabi",
+    "avatar": "https://haideralipunjabi.com/assets/media/profile.jpg",
+    "social": {
+        "fab fa-facebook": "https://facebook.com/haiderali176",
+        "fab fa-twitter": "https://twitter.com/HAliPunjabi",
+        "fab fa-instagram": "https://instagram.com/haideralipunjabi",
+        "fab fa-github":"https://github.com/haideralipunjabi",
+        "fas fa-globe": "https://haideralipunjabi.com"
+    }
 }

@@ -1,0 +1,24 @@
+.author-icons i {
+    font-size: 1.5rem;
+    color: #000000;
+}
+.author-icons a {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+.author-icons a:first-child {
+    margin-left: 0;
+}
+.author {
+    margin-bottom: 0;
+}
+
+.author-image {
+    width: 5em;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+.author-container, .author-container div {
+    display: flex;
+    justify-content: center;
+}
