@@ -1,6 +1,7 @@
 ---
 title: A Day in CovidKashmir - How it all works?
-images: /images/ck-blog2.jpg
+images: 
+ - /images/ck-blog2.jpg
 date: 2020-07-29T11:03:45.308Z
 description: To update our website, we rely on two sources only, Daily Media
   Bulletins and News Reports in various newspapers. The media bulletin comes out
